@@ -1,10 +1,9 @@
-lesson_duration = 1.5
-course_rating = 4.8
-discount = 0.15
+course_name = "Программирование на Python"
+teacher_name = "Александр"
+course_code = "PY-101"
 
-print(lesson_duration)
-print(course_rating)
-print(discount)
+print(course_name)
+print(teacher_name)
+print(course_code)
 
-print(type(lesson_duration))
-print(0.1 + 0.2)
+print(type(course_name))
