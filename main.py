@@ -1,8 +1,9 @@
-students_count = 23
-group_size = 5
+classroom_length = 6
 
-full_groups = students_count // group_size
-remaining_students = students_count % group_size
+classroom_area = classroom_length ** 2
 
-print(full_groups)
-print(remaining_students)
+print(classroom_area)
+
+storage_levels = 2 ** 8
+
+print(storage_levels)
