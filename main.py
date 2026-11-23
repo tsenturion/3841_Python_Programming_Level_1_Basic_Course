@@ -1,9 +1,9 @@
-students_count = 18
-lessons_count = 20
-available_seats = 0
+lesson_duration = 1.5
+course_rating = 4.8
+discount = 0.15
 
-print(students_count)
-print(lessons_count)
-print(available_seats)
+print(lesson_duration)
+print(course_rating)
+print(discount)
 
-print(type(students_count))
+print(type(lesson_duration))
