@@ -7,3 +7,4 @@ print(course_rating)
 print(discount)
 
 print(type(lesson_duration))
+print(0.1 + 0.2)
