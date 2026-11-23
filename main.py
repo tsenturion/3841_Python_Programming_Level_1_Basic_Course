@@ -1,7 +1,9 @@
-first_value = 0.1
-second_value = 0.2
+students_count = 18
 
-result = first_value + second_value
+students_count = students_count + 3
 
-print(result)
-print(round(result, 2))
+print(students_count)
+
+students_count += 2
+
+print(students_count)
