@@ -1,7 +1,12 @@
-students_count = 18
-new_students = 4
-left_students = 2
+lessons_count = 20
+lesson_duration = 1.5
 
-current_students = students_count + new_students - left_students
+total_hours = lessons_count * lesson_duration
 
-print(current_students)
+print(total_hours)
+
+weekly_lessons = 5
+weeks_count = lessons_count / weekly_lessons
+
+print(weeks_count)
+print(type(weeks_count))
