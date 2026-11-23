@@ -1,5 +1,5 @@
 course_name = "Программирование на Python"
-teacher_name = "Александр"
+teacher_name = 'Александр'
 course_code = "PY-101"
 
 print(course_name)
