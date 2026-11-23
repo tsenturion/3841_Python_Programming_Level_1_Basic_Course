@@ -1,12 +1,8 @@
-lessons_count = 20
-lesson_duration = 1.5
+students_count = 23
+group_size = 5
 
-total_hours = lessons_count * lesson_duration
+full_groups = students_count // group_size
+remaining_students = students_count % group_size
 
-print(total_hours)
-
-weekly_lessons = 5
-weeks_count = lessons_count / weekly_lessons
-
-print(weeks_count)
-print(type(weeks_count))
+print(full_groups)
+print(remaining_students)
