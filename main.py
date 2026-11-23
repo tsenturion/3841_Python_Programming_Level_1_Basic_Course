@@ -1,11 +1,9 @@
-course_name = "Программирование на Python"
-teacher_name = 'Алекс"андр'
-course_code = "PY-101"
-str1 = '123'
+is_course_active = True
+is_enrollment_open = False
+has_certificate = True
 
-print(course_name)
-print(course_code)
-print(str1)
+print(is_course_active)
+print(is_enrollment_open)
+print(has_certificate)
 
-print(type(course_name))
-print(type(str1))
+print(type(is_course_active))
