@@ -1,9 +1,7 @@
-is_course_active = True
-is_enrollment_open = False
-has_certificate = True
+students_count = 18
+new_students = 4
+left_students = 2
 
-print(is_course_active)
-print(is_enrollment_open)
-print(has_certificate)
+current_students = students_count + new_students - left_students
 
-print(type(is_course_active))
+print(current_students)
