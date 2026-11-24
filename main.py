@@ -1,9 +1,7 @@
-students_count = 18
+student_name = "Александр"
+exam_score = 85
+course_rating = 4.8
 
-students_count = students_count + 3
-
-print(students_count)
-
-students_count += 2
-
-print(students_count)
+print("Студент: %s" % student_name)
+print("Количество баллов: %d" % exam_score)
+print("Рейтинг курса: %f" % course_rating)
