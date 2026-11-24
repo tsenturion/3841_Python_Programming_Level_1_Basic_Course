@@ -1,7 +1,7 @@
-import math
+from math import sqrt
 
-number = 25
+number = 49
 
-result = math.sqrt(number)
+result = sqrt(number)
 
 print(result)
