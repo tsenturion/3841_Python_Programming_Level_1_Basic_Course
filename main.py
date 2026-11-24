@@ -1,10 +1,10 @@
-exam_score = 85
+exam_score = 95
+
+if exam_score >= 60:
+    print("Экзамен успешно сдан")
+
+if exam_score >= 75:
+    print("Студент показал хороший результат")
 
 if exam_score >= 90:
-    print("Оценка: отлично")
-elif exam_score >= 75:
-    print("Оценка: хорошо")
-elif exam_score >= 60:
-    print("Оценка: удовлетворительно")
-else:
-    print("Оценка: неудовлетворительно")
+    print("Студент рекомендован к поощрению")
