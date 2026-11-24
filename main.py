@@ -1,5 +1,7 @@
-course_name = ""
+course_name = "Программирование на Python"
 
-result = course_name or "Курс без названия"
+print("Python" in course_name)
+print("Java" in course_name)
 
-print(result)
+print("Python" not in course_name)
+print("Java" not in course_name)
