@@ -1,3 +1,6 @@
-course_code = "PYTHON"
+course_code = "PY"
 
-print(course_code[6])
+if len(course_code) >= 3:
+    print(course_code[2])
+else:
+    print("Недостаточно символов")
