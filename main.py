@@ -1,4 +1,4 @@
-lesson_number = 1
+course_code = "PYTHON"
 
-while lesson_number <= 5:
-    print(f"Занятие №{lesson_number}")
+for symbol in course_code:
+    print(symbol)
