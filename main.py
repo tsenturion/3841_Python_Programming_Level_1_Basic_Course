@@ -1,2 +1,6 @@
-print(True or False and False)
-print((True or False) and False)
+course_code = "PYTHON"
+
+print(course_code)
+print(len(course_code))
+print(len("Python programming"))
+print(len(""))
