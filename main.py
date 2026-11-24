@@ -1,9 +1,12 @@
-print(bool(10))
-print(bool(-5))
-print(bool(0))
+course_name = "Python"
+students_count = 18
 
-print(bool(3.5))
-print(bool(0.0))
+if course_name:
+    print("Название курса указано")
+else:
+    print("Название курса отсутствует")
 
-print(bool("Python"))
-print(bool(""))
+if students_count:
+    print("На курсе есть студенты")
+else:
+    print("На курсе нет студентов")
