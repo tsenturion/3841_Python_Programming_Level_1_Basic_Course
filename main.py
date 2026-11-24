@@ -1,5 +1,5 @@
-result_1 = -3 ** 2
-result_2 = (-3) ** 2
+students_count = 20
+current_students = students_count
 
-print(result_1)
-print(result_2)
+print(students_count)
+print(current_students)
