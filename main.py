@@ -1,8 +1,10 @@
-exam_score = 75
+exam_score = 45
 passing_score = 60
 
 if exam_score >= passing_score:
     print("Экзамен успешно сдан")
-    print("Студент допущен к следующему модулю")
+else:
+    print("Экзамен не сдан")
+    print("Необходимо пройти пересдачу")
 
 print("Проверка результатов завершена")
