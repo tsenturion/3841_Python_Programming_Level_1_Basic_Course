@@ -1,10 +1,10 @@
-exam_score = 45
-passing_score = 60
+exam_score = 85
 
-if exam_score >= passing_score:
-    print("Экзамен успешно сдан")
+if exam_score >= 90:
+    print("Оценка: отлично")
+elif exam_score >= 75:
+    print("Оценка: хорошо")
+elif exam_score >= 60:
+    print("Оценка: удовлетворительно")
 else:
-    print("Экзамен не сдан")
-    print("Необходимо пройти пересдачу")
-
-print("Проверка результатов завершена")
+    print("Оценка: неудовлетворительно")
