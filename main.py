@@ -1,9 +1,9 @@
 student_name = "Александр"
 exam_score = 85
-course_rating = 4.85678
+course_name = "Python"
 
-message = "Студент: %s, баллы: %d, рейтинг: %.2f" % (
-    student_name, exam_score, course_rating
+message = "Студент: {}, курс: {}, баллы: {}".format(
+    student_name, course_name, exam_score
 )
 
 print(message)
