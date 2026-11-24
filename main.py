@@ -1,8 +1,2 @@
-numbers = range(5)
-
-print(numbers)
-print(type(numbers))
-print(len(numbers))
-
-for number in numbers:
-    print(number)
+for lesson_number in range(1, 6):
+    print(f"Занятие №{lesson_number}")
