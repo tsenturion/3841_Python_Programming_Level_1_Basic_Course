@@ -1,7 +1,7 @@
-exam_score = 85
-is_course_paid = True
+has_promocode = False
+is_regular_student = True
 
-if exam_score >= 60 and is_course_paid:
-    print("Сертификат доступен")
+if has_promocode or is_regular_student:
+    print("Скидка доступна")
 else:
-    print("Сертификат недоступен")
+    print("Скидка недоступна")
