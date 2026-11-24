@@ -1,8 +1,5 @@
-students_count = 20
-current_students = students_count
+number_1 = int("1000")
+number_2 = int("1000")
 
-print(students_count is current_students)
-
-students_count = 25
-
-print(students_count is current_students)
+print(number_1 == number_2)
+print(number_1 is number_2)
