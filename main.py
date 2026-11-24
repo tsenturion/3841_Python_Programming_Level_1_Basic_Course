@@ -1,5 +1,8 @@
-course_name = "Python"
-student_number = 42
+students_count = 18
+lesson_price = 1500
 
-print(f"{course_name:-^20}")
-print(f"{student_number:05}")
+print(f"{students_count=}")
+print(f"{lesson_price=}")
+print(f"{students_count * lesson_price=}")
+
+print(f"Фигурные скобки: {{}}")
