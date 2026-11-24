@@ -1,13 +1,9 @@
-lesson_number = 1
-lesson_duration = 1.5
-total_hours = 0
+students_count = 5
+required_students = 20
 
-while lesson_number <= 5:
-    total_hours += lesson_duration
+while students_count < required_students:
+    students_count += 3
 
-    print(f"Занятие №{lesson_number}")
-    print(f"Общая продолжительность: {total_hours} ч.")
+    print(f"Количество студентов: {students_count}")
 
-    lesson_number += 1
-
-print(f"Итого: {total_hours} ч.")
+print("Группа сформирована")
