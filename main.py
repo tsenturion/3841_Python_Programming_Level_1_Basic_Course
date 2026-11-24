@@ -1,13 +1,10 @@
 import math
 
-number = 4.7
+angle = 45
+radians = math.radians(angle)
 
-print(math.floor(number))
-print(math.ceil(number))
-print(math.trunc(number))
+print(math.sin(radians))
+print(math.cos(radians))
+print(math.tan(radians))
 
-number = -4.7
-
-print(math.floor(number))
-print(math.ceil(number))
-print(math.trunc(number))
+print(math.degrees(radians))
