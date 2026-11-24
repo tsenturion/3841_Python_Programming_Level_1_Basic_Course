@@ -1,5 +1,6 @@
-course_code = "PYTHON-2026"
+numbers = "0123456789"
 
-print(course_code[-4:])
-print(course_code[:-5])
-print(course_code[-4:-2])
+print(numbers[0:10:2])
+print(numbers[1:10:2])
+print(numbers[::3])
+print(numbers[3::3])
