@@ -1,9 +1,14 @@
 student_name = "Александр"
-exam_score = 85
 course_name = "Python"
 
-message = "Студент: {}, курс: {}, баллы: {}".format(
-    student_name, course_name, exam_score
-)
+print("Студент {0} изучает курс {1}".format(
+    student_name, course_name
+))
 
-print(message)
+print("Курс {1}, студент {0}".format(
+    student_name, course_name
+))
+
+print("{0} зарегистрирован. Имя студента: {0}".format(
+    student_name
+))
