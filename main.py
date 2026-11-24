@@ -1,10 +1,10 @@
-exam_score = 95
+exam_score = 85
+is_course_paid = True
 
-if exam_score >= 60:
-    print("Экзамен успешно сдан")
-
-if exam_score >= 75:
-    print("Студент показал хороший результат")
-
-if exam_score >= 90:
-    print("Студент рекомендован к поощрению")
+if is_course_paid:
+    if exam_score >= 60:
+        print("Сертификат доступен")
+    else:
+        print("Необходимо сдать экзамен")
+else:
+    print("Необходимо оплатить обучение")
