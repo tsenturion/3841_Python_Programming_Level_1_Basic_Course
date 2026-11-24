@@ -1,5 +1,5 @@
-import math as m
+import math
 
-result = m.sqrt(81)
-
-print(result)
+print(math.pi)
+print(math.e)
+print(math.tau)
