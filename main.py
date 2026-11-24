@@ -1,12 +1,6 @@
-course_name = "Python"
-students_count = 18
+is_course_paid = False
 
-if course_name:
-    print("Название курса указано")
-else:
-    print("Название курса отсутствует")
+print(not is_course_paid)
 
-if students_count:
-    print("На курсе есть студенты")
-else:
-    print("На курсе нет студентов")
+if not is_course_paid:
+    print("Необходимо оплатить обучение")
