@@ -1,7 +1,5 @@
-has_promocode = False
-is_regular_student = True
+course_name = ""
 
-if has_promocode or is_regular_student:
-    print("Скидка доступна")
-else:
-    print("Скидка недоступна")
+result = course_name or "Курс без названия"
+
+print(result)
