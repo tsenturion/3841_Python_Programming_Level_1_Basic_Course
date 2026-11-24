@@ -1,9 +1,4 @@
-students_count = 5
-required_students = 20
+lesson_number = 1
 
-while students_count < required_students:
-    students_count += 3
-
-    print(f"Количество студентов: {students_count}")
-
-print("Группа сформирована")
+while lesson_number <= 5:
+    print(f"Занятие №{lesson_number}")
