@@ -1,11 +1,7 @@
-first_code = "PYTHON-2026"
-second_code = "GOLANG-2025"
+lesson_number = 1
 
-name_slice = slice(0, 6)
-year_slice = slice(-4, None)
+while lesson_number <= 5:
+    print(f"Занятие №{lesson_number}")
+    lesson_number += 1
 
-print(first_code[name_slice])
-print(second_code[name_slice])
-
-print(first_code[year_slice])
-print(second_code[year_slice])
+print("Занятия завершены")
