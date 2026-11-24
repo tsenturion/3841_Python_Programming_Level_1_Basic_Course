@@ -1,8 +1,5 @@
 exam_score = 85
 
-if exam_score >= 60:
-    exam_status = "Сдан"
-else:
-    exam_status = "Не сдан"
+exam_status = "Сдан" if exam_score >= 60 else "Не сдан"
 
 print(exam_status)
