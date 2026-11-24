@@ -1,10 +1,5 @@
-group = 1
+for row in range(1, 6):
+    for column in range(1, row + 1):
+        print("*", end=" ")
 
-while group <= 3:
-    lesson = 1
-
-    while lesson <= 2:
-        print(f"Группа {group}, занятие {lesson}")
-        lesson += 1
-
-    group += 1
+    print()
