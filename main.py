@@ -1,10 +1,8 @@
 exam_score = 85
-is_course_paid = True
 
-if is_course_paid:
-    if exam_score >= 60:
-        print("Сертификат доступен")
-    else:
-        print("Необходимо сдать экзамен")
+if exam_score >= 60:
+    exam_status = "Сдан"
 else:
-    print("Необходимо оплатить обучение")
+    exam_status = "Не сдан"
+
+print(exam_status)
