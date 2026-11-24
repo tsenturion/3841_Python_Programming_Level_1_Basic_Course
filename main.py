@@ -1,9 +1,8 @@
 exam_score = 75
 passing_score = 60
 
-print(exam_score > passing_score)
-print(exam_score < passing_score)
-print(exam_score >= passing_score)
-print(exam_score <= passing_score)
-print(exam_score == passing_score)
-print(exam_score != passing_score)
+if exam_score >= passing_score:
+    print("Экзамен успешно сдан")
+    print("Студент допущен к следующему модулю")
+
+print("Проверка результатов завершена")
