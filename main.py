@@ -1,5 +1,8 @@
-exam_score = 85
+lessons_count = 20
+lesson_price = 1500
 
-exam_status = "Сдан" if exam_score >= 60 else "Не сдан"
+discount = 0.1 if lessons_count >= 10 else 0
 
-print(exam_status)
+total_price = lessons_count * lesson_price * (1 - discount)
+
+print(total_price)
