@@ -1,9 +1,9 @@
-number = 0
+course_code = "PYTHON"
+search_symbol = "A"
 
-while number < 10:
-    number += 1
-
-    if number % 2 == 0:
-        continue
-
-    print(number)
+for symbol in course_code:
+    if symbol == search_symbol:
+        print("Символ найден")
+        break
+else:
+    print("Символ отсутствует")
