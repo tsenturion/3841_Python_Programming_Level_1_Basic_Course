@@ -1,9 +1,7 @@
-course_code = "PYTHON"
-search_symbol = "T"
+attempt = 1
 
-for symbol in course_code:
-    if symbol == search_symbol:
-        print("Символ найден")
-        break
+while attempt <= 3:
+    print(f"Попытка №{attempt}")
+    attempt += 1
 else:
-    print("Символ отсутствует")
+    print("Все попытки использованы")
